@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="logo">MyPortfolio</div>
+        <i class="fas fa-bars" id="menu-btn"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ===== HOME ===== -->
+    <section id="home" class="home">
+
+        <!-- CIRCLE IMAGE -->
+        <div class="circle-img">
+            <img src="bg.jpg.jpg" alt="Profile">
+        </div>
+
+        <div class="content">
+            <h1>Hello, I'm <span>Supriya Unde</span></h1>
+            <p>Web Developer</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="reveal">
+        <h2>About Me</h2>
+        <p>
+            I am a beginner web developer learning HTML, CSS and JavaScript. I love creating modern and responsive websites.
+        </p>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="reveal">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+        </div>
+    </section>
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="reveal">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <img src="images/project1.png" alt="Project 1">
+                <h3>Fake License Detection</h3>
+                <p>Web app to detect fake driving licenses using image processing.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project2.png" alt="Project 2">
+                <h3>College Review Chatbot</h3>
+                <p>Chatbot that helps students choose colleges based on reviews.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project3.png" alt="Project 3">
+                <h3>Portfolio Website</h3>
+                <p>Personal responsive portfolio built using HTML, CSS & JS.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="reveal">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2026 Supriya Unde | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
